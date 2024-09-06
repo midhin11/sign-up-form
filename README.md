@@ -1,2 +1,2 @@
 # sign-up-form
-A sign up form to reinforce the things learnt about forms
+This online form, created using skills learnt from The Odin Project's intermediate HTML and CSS course.
