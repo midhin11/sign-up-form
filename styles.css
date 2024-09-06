@@ -1,0 +1,145 @@
+img {
+    height: 100vh;
+    width: auto;
+}
+
+.image-container {
+    position: relative;
+    width: max-content;
+}
+
+.image-text{
+    position: absolute;
+    top: 245px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    font-size: 3rem;
+    font-family: "Chakra Petch";
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    width: 99vw;
+}
+
+.container {
+    margin-top: -20px;
+    flex-grow: 1;
+}
+
+.form-intro {
+    background-color: rgb(210, 205, 205);
+    height: 33.33vh;
+}
+
+.form-intro p {
+    padding-top: 85px;
+    margin-left: 70px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 550;
+    width: 46vw;
+    font-family: "Chakra Petch";
+}
+
+/* Form Styling */
+
+.form-container {
+    height: 66.66vh;
+}
+
+.form-container > div {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: "Tomorrow";
+    padding: 20px 70px;
+}
+
+.form-row {
+    font-size: 1rem;
+    font-family: "Tomorrow";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+/* Focused input fields */
+
+form input {
+    width: 350px;
+    height: 3ch;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: 1px solid #ced0d4;
+    outline: none;
+    margin-top: 5px;
+}
+
+.pwd {
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    border: 2px solid rgb(69, 144, 197);
+    box-shadow: 1px 1px 2px black;
+}
+
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+    border: 1.5px solid rgb(255, 0, 0);
+}
+
+/* Valid input fields after user interaction */
+input:valid:not(:focus):not(:placeholder-shown) {
+    border: 1.5px solid #4CAF50; /* Green border for valid inputs */
+}
+
+.pwd, .names, .contact {
+    display: flex;
+    gap: 70px;
+}
+
+form {
+    margin-left: 70px;
+}
+
+.submit {
+    height: 26.3vh;
+    background-color: rgb(210, 205, 205);
+    margin-left: -70px;
+    padding: 20px 70px;
+    font-size: 1rem;
+    font-family: "Tomorrow";
+}
+
+button {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+button:hover, button:focus {
+    background-color: #849973;
+    box-shadow: 1px 1px 2px;
+    border: none;
+}
+
+button:active {
+    background-color: #3f4d33;
+}
+
+a {
+    color: #596D48;
+    font-weight: 500;
+}
