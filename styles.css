@@ -1,5 +1,5 @@
 img {
-    height: 91vh;
+    height: 100vh;
     width: auto;
     filter: brightness(65%);
 }
@@ -41,7 +41,6 @@ body {
 }
 
 .container {
-    margin-top: -20px;
     flex-grow: 1;
     color: rgb(189, 189, 189);
 }
@@ -68,6 +67,7 @@ body {
 
 .form-container {
     height: 66.66vh;
+    border: 1px solid black;
 }
 
 .form-container > div {
@@ -133,7 +133,7 @@ form {
 }
 
 .submit {
-    height: 26.3vh;
+    height: 30vh;
     background-color: rgb(35, 35, 35);
     margin-left: -70px;
     padding: 20px 70px;
