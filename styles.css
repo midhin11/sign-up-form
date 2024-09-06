@@ -16,12 +16,22 @@ img {
     text-align: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.65);
-    color: rgb(190, 190, 190);
+    color: rgb(172, 172, 172);
     font-size: 3rem;
     font-family: "Chakra Petch";
     font-weight: 700;
     height: 70px;
     letter-spacing: 3px;
+}
+
+.credit {
+    position: absolute;
+    color: rgb(229, 229, 229);
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
 }
 
 body {
