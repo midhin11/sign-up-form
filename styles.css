@@ -1,6 +1,7 @@
 img {
     height: 100vh;
     width: auto;
+    filter: brightness(65%);
 }
 
 .image-container {
@@ -15,29 +16,34 @@ img {
     text-align: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.65);
-    color: white;
+    color: rgb(190, 190, 190);
     font-size: 3rem;
     font-family: "Chakra Petch";
     font-weight: 700;
+    height: 70px;
+    letter-spacing: 3px;
 }
 
 body {
     display: flex;
     width: 99vw;
+    background-color: rgb(26, 26, 26);
 }
 
 .container {
     margin-top: -20px;
     flex-grow: 1;
+    color: rgb(189, 189, 189);
 }
 
 .form-intro {
-    background-color: rgb(210, 205, 205);
+    background-color: rgb(46, 46, 46);
     height: 33.33vh;
+    color: rgb(190, 190, 190);;
 }
 
 .form-intro p {
-    padding-top: 85px;
+    padding-top: 95px;
     margin-left: 70px;
     font-size: 1.4rem;
     line-height: 1.4;
@@ -54,20 +60,24 @@ body {
 
 .form-container > div {
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Tomorrow";
     padding: 20px 70px;
+    color: hotpink;
 }
 
 .form-row {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Tomorrow";
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
+span {
+    color: hotpink;
+}
 
 /* Focused input fields */
 
@@ -76,9 +86,10 @@ form input {
     height: 3ch;
     font-size: 1.2rem;
     border-radius: 6px;
-    border: 1px solid #ced0d4;
+    border: 1px solid hotpink;
     outline: none;
     margin-top: 5px;
+    background-color: rgb(190, 190, 190);;
 }
 
 .pwd {
@@ -111,36 +122,40 @@ form {
 
 .submit {
     height: 26.3vh;
-    background-color: rgb(210, 205, 205);
+    background-color: rgb(46, 46, 46);
     margin-left: -70px;
     padding: 20px 70px;
     font-size: 1rem;
     font-family: "Tomorrow";
+    color: white;
 }
 
 button {
-    padding: 10px;
-    font-size: 1.1rem;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
     border-radius: 7px;
-    margin-bottom: 10px;
-    background-color: #596D48;
+    margin-bottom: 15px;
+    background-color: rgb(46, 46, 46);
     color: white;
-    border: none;
+    border: 3px solid hotpink;
+    font-family: "Chakra Petch";
     font-weight: 500;
     cursor: pointer;
 }
 
 button:hover, button:focus {
-    background-color: #849973;
-    box-shadow: 1px 1px 2px;
-    border: none;
+    background-color: rgb(255, 124, 189);
+    border: 3px solid rgb(255, 124, 189);
+    box-shadow: 1px 1px 2px white;
+    color: black;
 }
 
 button:active {
-    background-color: #3f4d33;
+    background-color: rgb(245, 55, 150);
 }
 
 a {
-    color: #596D48;
+    color: hotpink;
     font-weight: 500;
 }
