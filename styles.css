@@ -27,7 +27,7 @@ img {
 body {
     display: flex;
     width: 99vw;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(18, 18, 18);
 }
 
 .container {
@@ -37,9 +37,9 @@ body {
 }
 
 .form-intro {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(35, 35, 35);
     height: 33.33vh;
-    color: rgb(190, 190, 190);;
+    color: rgb(190, 190, 190);
 }
 
 .form-intro p {
@@ -122,12 +122,12 @@ form {
 
 .submit {
     height: 26.3vh;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(35, 35, 35);
     margin-left: -70px;
     padding: 20px 70px;
     font-size: 1rem;
     font-family: "Tomorrow";
-    color: white;
+    color: rgb(209, 209, 209);
 }
 
 button {
@@ -137,7 +137,7 @@ button {
     border-radius: 7px;
     margin-bottom: 15px;
     background-color: rgb(46, 46, 46);
-    color: white;
+    color: rgb(209, 209, 209);
     border: 3px solid hotpink;
     font-family: "Chakra Petch";
     font-weight: 500;
