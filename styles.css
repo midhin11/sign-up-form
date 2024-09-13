@@ -48,7 +48,7 @@ body {
 
 .form-intro {
     background-color: rgb(35, 35, 35);
-    height: 33.33%;
+    height: calc(100vh/3);
     color: rgb(190, 190, 190);
     display: flex;
     align-items: center;
@@ -69,14 +69,6 @@ body {
 .form-container {
     height: 66.66%;
     border: 1px solid black;
-}
-
-.form-container > div {
-    font-size: 1rem;
-    font-weight: 600;
-    font-family: "Tomorrow";
-    padding: 20px 70px;
-    color: hotpink;
 }
 
 .form-row {
@@ -130,7 +122,7 @@ input:valid:not(:focus):not(:placeholder-shown) {
 }
 
 form {
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .submit {
@@ -139,6 +131,7 @@ form {
     font-size: 0.8rem;
     font-family: "Tomorrow";
     color: rgb(209, 209, 209);
+    background-color: rgb(35, 35, 35);
 }
 
 button {
@@ -168,4 +161,39 @@ button:active {
 a {
     color: hotpink;
     font-weight: 500;
+}
+
+/* New */
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.submit {
+    flex-grow: 1;
+}
+
+.form-container {
+    
+}
+
+.form-main {
+    height: 40%;
+}
+
+.submit {
+    height: cal;
+}
+
+.form-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Tomorrow";
+    padding: 20px 0px;
+    color: hotpink;
 }
