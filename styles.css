@@ -132,6 +132,9 @@ form {
     font-family: "Tomorrow";
     color: rgb(209, 209, 209);
     background-color: rgb(35, 35, 35);
+    /* Flex child */
+    flex-grow: 1;
+    height: cal;
 }
 
 button {
@@ -172,22 +175,6 @@ form {
     grid-template-rows: auto 1fr;
     height: 100%;
     /* border: 1px solid rebeccapurple; */
-}
-
-.submit {
-    flex-grow: 1;
-}
-
-.form-container {
-    
-}
-
-.form-main {
-    height: 40%;
-}
-
-.submit {
-    height: cal;
 }
 
 .form-header {
